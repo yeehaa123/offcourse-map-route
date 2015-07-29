@@ -1,0 +1,20 @@
+import React from "react";
+import TodolistItem from "../src/index.jsx";
+
+class Example extends React.Component {
+
+  render() {
+    let item = {
+      id: 1,
+      title: "Foo",
+      completed: true
+    }
+    return (
+      <section>
+        <TodolistItem item={ item  }/>
+      </section>
+    );
+  }
+}
+
+export default Example;
